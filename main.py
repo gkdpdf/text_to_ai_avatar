@@ -13,7 +13,7 @@ tts = TTS(model_name).to("cuda")
 text = '''गुरु,मैं सिद्धू जी की आवाज़ की क्लोन हूँ,और मैं क्रिकमीमप्ले के लिए काम करता हूँ।और मैं इनसे एक रुपये की दिहाड़ी भी नहीं लेता। ठोक्को ताली!
 
 '''
-speaker_wav = "sidhujii.wav"
+speaker_wav = "sidhuj.wav"
 
 tts.tts_to_file(
     text=text,
